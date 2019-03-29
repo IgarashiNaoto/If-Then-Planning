@@ -1,0 +1,290 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6b;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+body{
+	 background: linear-gradient(90deg,#5FC3E4,#E55D87);
+}
+.title{
+	border-bottom: solid 5px black;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+.title>h1{
+	line-height: 100px;
+	color: black;
+}
+
+.contents_box{
+	width: 100%;
+}
+
+.rog_in{
+	border: solid 5px black;
+	width: 300px;
+	height: 150px;
+	margin: 30px auto;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.rogin_text{
+	color: black;
+	font-size: 20px;
+}
+
+.new_text{
+	color: black;
+	font-size: 20px;
+}
+
+.new{
+	border: solid 5px black;
+	width: 300px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 35px 0;
+	color: black;
+}
+
+.registrate_box{
+	border: solid 2px black;
+	text-align: center;
+	padding: 25px 0;
+	width: 300px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.registrate_text{
+	color: black;
+	font-size: 20px;
+}
+
+.my_page_title{
+	border-bottom: solid 5px black;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+.my_page_title>h1{
+	line-height: 100px;
+	color: black;
+}
+
+.rogout_box{
+	border: solid 2px black;
+	width: 150px;
+	margin: 10px 0 20px  0;
+	text-align: center;
+}
+.rogout>h2>a{
+	color: black;
+}
+
+.user_name{
+	color: black;
+	margin: 10px;
+}
+
+.navigation>ul>li{
+	margin: 0 0 30px 10px;
+}
+
+.navigation>ul>li>a{
+	color: black;
+	font-size: 30px;
+}
+
+.list_all{
+	color: black;
+	font-size: 30px;
+	margin: 0 0 30px 10px;
+}
+
+.list_all>li>a{
+	color: black;
+	font-size: 30px;
+}
+
+.list_content{
+	color: black;
+	font-size: 30px;
+	margin: 0 0 30px 30px;
+}
+
+.newit_box{
+	border: solid 2px black;
+	width: 300px;
+	height: 200px;
+	margin: 30px auto;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.return>a{
+	font-size: 20px;
+	color: black;
+}
+
+.newit_text{
+	color: black;
+	font-size: 20px;
+}
+
+.it_title>h1{
+	color: black;
+}
+
+table {
+    border-collapse:  collapse;
+}
+
+th,td{
+	border: solid 5px black;
+	padding: 10px;
+	color: black;
+}
+
+th {
+    height: 80px;
+}
+
+td{
+	font-size: 20px;
+	height: 60px;
+
+}
+
+.ifbox{
+	width: 450px;
+}
+
+.thenbox{
+	width: 450px;
+}
+
+.delete_button{
+	width: 60px;
+}
+.edit_button{
+	width: 60px;
+}
+
+.it_content{
+	padding-left: 20%;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.edit_box{
+	border: solid 2px black;
+	width: 300px;
+	height: 180px;
+	margin: 30px auto;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.edit_if{
+	color: black;
+	font-size: 20px;
+}
+
+.edit_then{
+	color: black;
+	font-size: 20px;
+}
+
+.confirm_box{
+	border: solid 2px black;
+	width: 400px;
+	padding: 20px 0;
+	text-align: center;
+	margin: 10% auto;
+}
+
+.confirm_box>h1{
+	color: black;
+	margin-bottom: 20px;
+}
+
+.confirm_box>p>a{
+	color: black;
+	font-size: 20px;
+}
+
+/*レスポンシブ(iphone7)*/
+@media screen and (max-width: 480px){
+.title{
+	margin-bottom: 10px;
+}
+
+.rog_in{
+	padding: 5px 0;
+}
+
+.registrate_box{
+	padding: 5px 0;
+	margin: 110px auto;
+}
+
+.confirm_box{
+	width: 300px;
+	margin: 100px auto;
+}
+
+.my_page_title{
+	margin-bottom: 10px;
+}
+
+.user_name{
+	margin-bottom: 10px;
+}
+
+.navigation>ul>li{
+	margin: 0 0 15px 10px;
+}
+
+.navigation>ul>li>a{
+	font-size: 30px;
+}
+
+.list_all{
+	font-size: 30px;
+	margin: 0 0 15px 10px;
+}
+
+.list_content{
+	font-size: 30px;
+	margin: 0 0 10px 30px;
+}
+
+.newit_box{
+	margin: 50px auto;
+	height: 220px;
+	padding: 10px 0;
+}
+
+.it_content{
+	padding-left: 0;
+}
+
+.edit_box{
+	margin: 100px auto;
+	padding: 20px 0;
+}
+
+}
